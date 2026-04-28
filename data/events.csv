@@ -1,0 +1,251 @@
+event_name,description,category,location,date_time,price,past_attendance,popularity
+Music Fest,Live music concert with top artists,Food,Mumbai,2026-07-12 16:30:22.482607,154,325,1
+Yoga Session,Morning yoga and wellness session,Food,Pune,2026-05-19 16:30:22.482607,516,243,1
+Dance Show,Learn Python and data science,Music,Jaipur,2026-07-21 16:30:22.482607,104,265,1
+Music Fest,Morning yoga and wellness session,Tech,Jaipur,2026-05-28 16:30:22.482607,913,197,1
+Food Festival,Painting workshop for beginners,Business,Chandigarh,2026-06-21 16:30:22.482607,931,256,1
+Book Fair,AI and ML networking event,Art,Jaipur,2026-06-09 16:30:22.482607,759,439,1
+Startup Pitch,Street food and cultural fest,Food,Pune,2026-05-26 16:30:22.482607,516,64,0
+Tech Meetup,Morning yoga and wellness session,Tech,Mumbai,2026-06-06 16:30:22.482607,348,141,0
+Book Fair,AI and ML networking event,Food,Chandigarh,2026-06-17 16:30:22.482607,638,329,1
+Book Fair,Pitch your startup to investors,Education,Pune,2026-07-28 16:30:22.482607,626,128,0
+Dance Show,Business growth strategies and networking,Business,Pune,2026-07-13 16:30:22.482607,306,150,0
+Food Festival,Live dance performances,Business,Bangalore,2026-07-13 16:30:22.482607,317,239,1
+Dance Show,Live music concert with top artists,Music,Jaipur,2026-06-29 16:30:22.482607,71,455,1
+Startup Pitch,Live dance performances,Food,Delhi,2026-07-31 16:30:22.482607,278,208,1
+Coding Bootcamp,Pitch your startup to investors,Tech,Bangalore,2026-04-30 16:30:22.482607,928,22,0
+Tech Meetup,Book exhibition and author meet,Education,Jaipur,2026-05-29 16:30:22.482607,487,225,1
+Tech Meetup,Book exhibition and author meet,Education,Mumbai,2026-07-22 16:30:22.482607,614,221,1
+Yoga Session,Street food and cultural fest,Music,Bangalore,2026-07-02 16:30:22.482607,89,312,1
+Tech Meetup,Book exhibition and author meet,Health,Jaipur,2026-05-17 16:30:22.482607,587,484,1
+Tech Meetup,Painting workshop for beginners,Art,Jaipur,2026-06-05 16:30:22.482607,735,164,1
+Music Fest,Live dance performances,Health,Chandigarh,2026-07-08 16:30:22.482607,982,136,0
+Art Workshop,Pitch your startup to investors,Business,Pune,2026-06-16 16:30:22.482607,394,237,1
+Business Seminar,Live music concert with top artists,Tech,Chandigarh,2026-06-27 16:30:22.482607,370,459,1
+Coding Bootcamp,Live dance performances,Business,Pune,2026-05-04 16:30:22.482607,685,138,0
+Music Fest,Learn Python and data science,Health,Jaipur,2026-07-01 16:30:22.482607,401,284,1
+Business Seminar,Learn Python and data science,Music,Chandigarh,2026-05-04 16:30:22.482607,522,15,0
+Book Fair,AI and ML networking event,Business,Bangalore,2026-06-24 16:30:22.482607,361,478,1
+Food Festival,Pitch your startup to investors,Music,Bangalore,2026-05-03 16:30:22.482607,620,329,1
+Startup Pitch,Live dance performances,Art,Bangalore,2026-07-21 16:30:22.482607,73,448,1
+Yoga Session,Morning yoga and wellness session,Business,Delhi,2026-06-18 16:30:22.482607,88,402,1
+Food Festival,Pitch your startup to investors,Food,Chandigarh,2026-05-14 16:30:22.482607,94,281,1
+Dance Show,Learn Python and data science,Food,Chandigarh,2026-06-21 16:30:22.482607,539,292,1
+Book Fair,Live music concert with top artists,Art,Chandigarh,2026-08-02 16:30:22.482607,974,28,0
+Art Workshop,Business growth strategies and networking,Music,Bangalore,2026-06-29 16:30:22.482607,41,438,1
+Startup Pitch,AI and ML networking event,Food,Mumbai,2026-08-01 16:30:22.482607,621,85,0
+Art Workshop,Business growth strategies and networking,Art,Pune,2026-05-06 16:30:22.482607,515,311,1
+Yoga Session,Business growth strategies and networking,Tech,Delhi,2026-06-09 16:30:22.482607,886,31,0
+Book Fair,Morning yoga and wellness session,Business,Jaipur,2026-06-03 16:30:22.482607,574,414,1
+Business Seminar,Book exhibition and author meet,Art,Pune,2026-05-01 16:30:22.482607,703,382,1
+Dance Show,Live music concert with top artists,Art,Bangalore,2026-05-20 16:30:22.482607,736,185,1
+Business Seminar,Business growth strategies and networking,Art,Chandigarh,2026-04-29 16:30:22.482607,805,34,0
+Coding Bootcamp,Live dance performances,Music,Bangalore,2026-06-03 16:30:22.482607,994,19,0
+Business Seminar,Pitch your startup to investors,Business,Jaipur,2026-08-05 16:30:22.482607,723,367,1
+Art Workshop,Live music concert with top artists,Health,Pune,2026-06-16 16:30:22.482607,937,343,1
+Startup Pitch,AI and ML networking event,Art,Delhi,2026-05-14 16:30:22.482607,778,56,0
+Dance Show,Business growth strategies and networking,Business,Bangalore,2026-06-15 16:30:22.482607,941,350,1
+Tech Meetup,Live dance performances,Health,Mumbai,2026-07-04 16:30:22.482607,928,272,1
+Food Festival,Painting workshop for beginners,Music,Mumbai,2026-06-02 16:30:22.482607,863,41,0
+Dance Show,Pitch your startup to investors,Business,Pune,2026-07-04 16:30:22.482607,744,210,1
+Business Seminar,Street food and cultural fest,Tech,Chandigarh,2026-05-13 16:30:22.482607,257,352,1
+Coding Bootcamp,Pitch your startup to investors,Art,Mumbai,2026-06-07 16:30:22.482607,566,113,0
+Business Seminar,Book exhibition and author meet,Business,Mumbai,2026-07-21 16:30:22.482607,250,71,0
+Book Fair,Business growth strategies and networking,Health,Jaipur,2026-05-13 16:30:22.482607,622,294,1
+Food Festival,AI and ML networking event,Business,Pune,2026-07-25 16:30:22.482607,720,436,1
+Yoga Session,Live dance performances,Music,Delhi,2026-06-12 16:30:22.482607,790,401,1
+Food Festival,AI and ML networking event,Food,Chandigarh,2026-05-06 16:30:22.482607,688,254,1
+Music Fest,Pitch your startup to investors,Art,Jaipur,2026-07-22 16:30:22.482607,912,10,0
+Yoga Session,Pitch your startup to investors,Tech,Mumbai,2026-08-01 16:30:22.482607,236,436,1
+Coding Bootcamp,Business growth strategies and networking,Education,Delhi,2026-05-12 16:30:22.482607,108,387,1
+Business Seminar,Learn Python and data science,Health,Bangalore,2026-07-25 16:30:22.482607,611,32,0
+Tech Meetup,Street food and cultural fest,Music,Chandigarh,2026-05-24 16:30:22.482607,653,124,0
+Dance Show,Learn Python and data science,Health,Delhi,2026-07-22 16:30:22.482607,714,207,1
+Art Workshop,Book exhibition and author meet,Health,Pune,2026-05-01 16:30:22.482607,349,377,1
+Startup Pitch,Learn Python and data science,Business,Delhi,2026-07-11 16:30:22.482607,898,14,0
+Book Fair,Book exhibition and author meet,Education,Mumbai,2026-08-02 16:30:22.482607,185,291,1
+Tech Meetup,Street food and cultural fest,Business,Chandigarh,2026-07-20 16:30:22.482607,406,72,0
+Art Workshop,Live music concert with top artists,Health,Pune,2026-07-23 16:30:22.482607,392,156,1
+Book Fair,Book exhibition and author meet,Music,Pune,2026-05-16 16:30:22.482607,352,202,1
+Yoga Session,Book exhibition and author meet,Health,Bangalore,2026-05-10 16:30:22.482607,557,497,1
+Music Fest,Book exhibition and author meet,Education,Jaipur,2026-05-25 16:30:22.482607,540,207,1
+Art Workshop,AI and ML networking event,Tech,Pune,2026-08-06 16:30:22.482607,472,207,1
+Startup Pitch,Business growth strategies and networking,Food,Bangalore,2026-05-05 16:30:22.482607,330,352,1
+Startup Pitch,Pitch your startup to investors,Health,Jaipur,2026-07-06 16:30:22.482607,256,116,0
+Art Workshop,Painting workshop for beginners,Education,Pune,2026-06-22 16:30:22.482607,615,25,0
+Coding Bootcamp,Pitch your startup to investors,Health,Delhi,2026-07-05 16:30:22.482607,160,276,1
+Yoga Session,Live dance performances,Business,Jaipur,2026-07-28 16:30:22.482607,591,330,1
+Business Seminar,AI and ML networking event,Education,Chandigarh,2026-07-21 16:30:22.482607,889,359,1
+Music Fest,Painting workshop for beginners,Business,Bangalore,2026-06-30 16:30:22.482607,278,264,1
+Music Fest,Pitch your startup to investors,Art,Bangalore,2026-06-30 16:30:22.482607,31,494,1
+Startup Pitch,Book exhibition and author meet,Art,Pune,2026-07-20 16:30:22.482607,404,298,1
+Music Fest,Live dance performances,Business,Chandigarh,2026-06-20 16:30:22.482607,567,362,1
+Tech Meetup,Business growth strategies and networking,Food,Jaipur,2026-07-30 16:30:22.482607,869,40,0
+Coding Bootcamp,Live dance performances,Education,Delhi,2026-05-01 16:30:22.482607,280,352,1
+Dance Show,Street food and cultural fest,Food,Mumbai,2026-05-15 16:30:22.482607,966,481,1
+Book Fair,Live dance performances,Health,Bangalore,2026-05-09 16:30:22.482607,110,317,1
+Art Workshop,Painting workshop for beginners,Art,Pune,2026-07-18 16:30:22.482607,303,111,0
+Business Seminar,Street food and cultural fest,Art,Chandigarh,2026-05-07 16:30:22.482607,281,474,1
+Startup Pitch,Live dance performances,Food,Chandigarh,2026-07-19 16:30:22.482607,311,469,1
+Book Fair,Painting workshop for beginners,Food,Bangalore,2026-07-23 16:30:22.482607,493,365,1
+Startup Pitch,Morning yoga and wellness session,Business,Mumbai,2026-07-09 16:30:22.482607,4,13,1
+Business Seminar,Book exhibition and author meet,Health,Bangalore,2026-04-29 16:30:22.482607,462,97,0
+Yoga Session,Morning yoga and wellness session,Music,Delhi,2026-07-06 16:30:22.482607,763,102,0
+Book Fair,Street food and cultural fest,Food,Bangalore,2026-06-15 16:30:22.482607,42,179,1
+Coding Bootcamp,Book exhibition and author meet,Food,Bangalore,2026-05-02 16:30:22.482607,792,422,1
+Dance Show,Live music concert with top artists,Business,Mumbai,2026-06-30 16:30:22.482607,568,70,0
+Coding Bootcamp,Book exhibition and author meet,Business,Bangalore,2026-07-02 16:30:22.482607,86,164,1
+Dance Show,Learn Python and data science,Health,Delhi,2026-06-26 16:30:22.482607,854,461,1
+Music Fest,Book exhibition and author meet,Business,Delhi,2026-07-24 16:30:22.482607,612,401,1
+Business Seminar,Street food and cultural fest,Education,Mumbai,2026-05-20 16:30:22.482607,702,399,1
+Food Festival,Morning yoga and wellness session,Business,Pune,2026-06-13 16:30:22.482607,398,399,1
+Dance Show,Book exhibition and author meet,Education,Mumbai,2026-05-18 16:30:22.482607,606,394,1
+Dance Show,Pitch your startup to investors,Business,Chandigarh,2026-06-27 16:30:22.482607,399,74,0
+Coding Bootcamp,Live music concert with top artists,Art,Pune,2026-05-13 16:30:22.482607,189,413,1
+Art Workshop,Painting workshop for beginners,Education,Chandigarh,2026-07-24 16:30:22.482607,700,205,1
+Dance Show,Painting workshop for beginners,Food,Delhi,2026-05-14 16:30:22.482607,660,437,1
+Business Seminar,AI and ML networking event,Business,Pune,2026-07-22 16:30:22.482607,44,417,1
+Startup Pitch,AI and ML networking event,Business,Jaipur,2026-06-20 16:30:22.482607,568,349,1
+Yoga Session,Morning yoga and wellness session,Tech,Bangalore,2026-06-13 16:30:22.482607,876,77,0
+Music Fest,Live music concert with top artists,Tech,Pune,2026-05-03 16:30:22.482607,569,416,1
+Art Workshop,Book exhibition and author meet,Business,Pune,2026-07-01 16:30:22.482607,3,356,1
+Music Fest,Book exhibition and author meet,Art,Bangalore,2026-07-23 16:30:22.482607,302,213,1
+Tech Meetup,Painting workshop for beginners,Tech,Chandigarh,2026-05-12 16:30:22.482607,916,462,1
+Food Festival,AI and ML networking event,Music,Chandigarh,2026-06-05 16:30:22.482607,201,338,1
+Music Fest,Business growth strategies and networking,Art,Mumbai,2026-07-16 16:30:22.482607,824,143,0
+Coding Bootcamp,AI and ML networking event,Health,Bangalore,2026-06-02 16:30:22.482607,65,162,1
+Yoga Session,Painting workshop for beginners,Education,Pune,2026-08-06 16:30:22.482607,80,341,1
+Dance Show,Business growth strategies and networking,Business,Mumbai,2026-05-13 16:30:22.482607,306,455,1
+Coding Bootcamp,Business growth strategies and networking,Business,Jaipur,2026-06-22 16:30:22.482607,362,66,0
+Book Fair,Morning yoga and wellness session,Health,Delhi,2026-06-02 16:30:22.482607,206,416,1
+Dance Show,AI and ML networking event,Education,Delhi,2026-05-10 16:30:22.482607,519,12,0
+Business Seminar,Book exhibition and author meet,Business,Bangalore,2026-05-07 16:30:22.482607,704,245,1
+Business Seminar,Painting workshop for beginners,Health,Mumbai,2026-07-29 16:30:22.482607,1000,138,0
+Coding Bootcamp,Painting workshop for beginners,Health,Mumbai,2026-06-21 16:30:22.482607,673,209,1
+Art Workshop,Street food and cultural fest,Tech,Pune,2026-07-26 16:30:22.482607,513,66,0
+Dance Show,Pitch your startup to investors,Education,Delhi,2026-05-26 16:30:22.482607,93,142,1
+Book Fair,Morning yoga and wellness session,Business,Mumbai,2026-05-27 16:30:22.482607,435,123,0
+Startup Pitch,Morning yoga and wellness session,Music,Mumbai,2026-05-23 16:30:22.482607,838,17,0
+Business Seminar,Pitch your startup to investors,Health,Delhi,2026-07-31 16:30:22.482607,712,267,1
+Dance Show,Pitch your startup to investors,Food,Mumbai,2026-07-13 16:30:22.482607,707,194,1
+Music Fest,Painting workshop for beginners,Tech,Mumbai,2026-06-03 16:30:22.482607,744,99,0
+Food Festival,Learn Python and data science,Art,Pune,2026-05-13 16:30:22.482607,34,330,1
+Book Fair,Book exhibition and author meet,Art,Jaipur,2026-06-16 16:30:22.482607,974,10,0
+Art Workshop,Painting workshop for beginners,Business,Chandigarh,2026-07-02 16:30:22.482607,455,100,0
+Music Fest,Live dance performances,Education,Pune,2026-08-04 16:30:22.482607,576,358,1
+Food Festival,Pitch your startup to investors,Business,Jaipur,2026-05-11 16:30:22.482607,596,327,1
+Music Fest,Street food and cultural fest,Food,Jaipur,2026-07-22 16:30:22.482607,422,491,1
+Business Seminar,Live music concert with top artists,Food,Pune,2026-06-17 16:30:22.482607,745,180,1
+Startup Pitch,Live dance performances,Tech,Bangalore,2026-07-16 16:30:22.482607,909,209,1
+Book Fair,AI and ML networking event,Food,Pune,2026-07-07 16:30:22.482607,387,468,1
+Yoga Session,Street food and cultural fest,Food,Bangalore,2026-05-25 16:30:22.482607,132,101,1
+Music Fest,Live dance performances,Tech,Pune,2026-06-04 16:30:22.482607,68,456,1
+Startup Pitch,Business growth strategies and networking,Education,Delhi,2026-07-17 16:30:22.482607,76,216,1
+Dance Show,Painting workshop for beginners,Tech,Chandigarh,2026-07-03 16:30:22.482607,436,480,1
+Food Festival,Learn Python and data science,Education,Mumbai,2026-05-14 16:30:22.482607,753,209,1
+Book Fair,Live dance performances,Tech,Bangalore,2026-06-23 16:30:22.482607,431,135,0
+Yoga Session,AI and ML networking event,Tech,Delhi,2026-05-29 16:30:22.482607,81,60,1
+Coding Bootcamp,Live dance performances,Tech,Chandigarh,2026-05-24 16:30:22.482607,541,40,0
+Tech Meetup,Painting workshop for beginners,Health,Bangalore,2026-07-17 16:30:22.482607,558,335,1
+Coding Bootcamp,Painting workshop for beginners,Art,Pune,2026-06-01 16:30:22.482607,774,234,1
+Book Fair,Pitch your startup to investors,Health,Chandigarh,2026-08-01 16:30:22.482607,359,205,1
+Business Seminar,Live dance performances,Tech,Jaipur,2026-05-03 16:30:22.482607,866,104,0
+Yoga Session,Pitch your startup to investors,Food,Delhi,2026-06-09 16:30:22.482607,414,183,1
+Food Festival,Morning yoga and wellness session,Business,Delhi,2026-05-23 16:30:22.482607,810,58,0
+Yoga Session,Live music concert with top artists,Business,Delhi,2026-05-14 16:30:22.482607,547,356,1
+Business Seminar,Learn Python and data science,Education,Chandigarh,2026-07-16 16:30:22.482607,253,205,1
+Food Festival,Learn Python and data science,Education,Chandigarh,2026-06-27 16:30:22.482607,840,257,1
+Music Fest,Street food and cultural fest,Business,Pune,2026-07-25 16:30:22.482607,773,296,1
+Book Fair,Morning yoga and wellness session,Business,Pune,2026-07-08 16:30:22.482607,734,190,1
+Coding Bootcamp,Pitch your startup to investors,Art,Delhi,2026-05-04 16:30:22.482607,784,169,1
+Food Festival,Pitch your startup to investors,Music,Pune,2026-07-17 16:30:22.482607,844,196,1
+Yoga Session,Learn Python and data science,Art,Jaipur,2026-07-07 16:30:22.482607,776,336,1
+Coding Bootcamp,Learn Python and data science,Music,Jaipur,2026-07-15 16:30:22.482607,126,19,1
+Dance Show,Live dance performances,Food,Chandigarh,2026-07-10 16:30:22.482607,253,146,0
+Coding Bootcamp,AI and ML networking event,Food,Pune,2026-07-18 16:30:22.482607,939,432,1
+Yoga Session,AI and ML networking event,Art,Pune,2026-04-29 16:30:22.482607,518,299,1
+Book Fair,Live music concert with top artists,Tech,Pune,2026-07-05 16:30:22.482607,472,493,1
+Startup Pitch,Painting workshop for beginners,Tech,Delhi,2026-05-14 16:30:22.482607,704,13,0
+Art Workshop,Live music concert with top artists,Art,Bangalore,2026-06-10 16:30:22.482607,505,354,1
+Coding Bootcamp,Street food and cultural fest,Music,Bangalore,2026-06-21 16:30:22.482607,962,345,1
+Startup Pitch,Book exhibition and author meet,Food,Pune,2026-05-14 16:30:22.482607,1000,153,1
+Tech Meetup,Morning yoga and wellness session,Business,Pune,2026-07-08 16:30:22.482607,344,389,1
+Food Festival,Morning yoga and wellness session,Art,Delhi,2026-07-15 16:30:22.482607,701,214,1
+Coding Bootcamp,Business growth strategies and networking,Tech,Mumbai,2026-06-02 16:30:22.482607,498,497,1
+Dance Show,AI and ML networking event,Health,Chandigarh,2026-07-26 16:30:22.482607,481,264,1
+Tech Meetup,Painting workshop for beginners,Music,Chandigarh,2026-05-09 16:30:22.482607,447,327,1
+Art Workshop,Live music concert with top artists,Business,Bangalore,2026-05-12 16:30:22.482607,449,313,1
+Startup Pitch,Business growth strategies and networking,Education,Delhi,2026-05-19 16:30:22.482607,45,422,1
+Startup Pitch,Morning yoga and wellness session,Tech,Chandigarh,2026-06-30 16:30:22.482607,134,203,1
+Dance Show,Book exhibition and author meet,Tech,Bangalore,2026-07-20 16:30:22.482607,172,22,1
+Business Seminar,Live dance performances,Art,Pune,2026-06-12 16:30:22.482607,211,197,1
+Business Seminar,Live music concert with top artists,Tech,Mumbai,2026-07-31 16:30:22.482607,666,217,1
+Yoga Session,Street food and cultural fest,Food,Pune,2026-05-27 16:30:22.482607,404,328,1
+Business Seminar,Book exhibition and author meet,Food,Delhi,2026-06-07 16:30:22.482607,411,296,1
+Yoga Session,Live dance performances,Education,Delhi,2026-05-04 16:30:22.482607,142,83,1
+Book Fair,Pitch your startup to investors,Education,Delhi,2026-05-05 16:30:22.482607,270,353,1
+Music Fest,Pitch your startup to investors,Health,Chandigarh,2026-05-27 16:30:22.482607,102,107,1
+Tech Meetup,Live dance performances,Tech,Bangalore,2026-07-28 16:30:22.482607,825,448,1
+Coding Bootcamp,Street food and cultural fest,Tech,Delhi,2026-05-30 16:30:22.482607,890,488,1
+Music Fest,Painting workshop for beginners,Education,Chandigarh,2026-06-19 16:30:22.482607,690,283,1
+Tech Meetup,Learn Python and data science,Food,Mumbai,2026-05-02 16:30:22.482607,100,320,1
+Food Festival,AI and ML networking event,Health,Chandigarh,2026-07-23 16:30:22.482607,160,105,1
+Art Workshop,Live dance performances,Health,Pune,2026-05-23 16:30:22.482607,550,75,0
+Business Seminar,Learn Python and data science,Art,Pune,2026-05-21 16:30:22.482607,556,51,0
+Food Festival,Business growth strategies and networking,Education,Pune,2026-08-03 16:30:22.482607,217,48,0
+Business Seminar,Painting workshop for beginners,Music,Mumbai,2026-07-13 16:30:22.482607,196,159,1
+Book Fair,Morning yoga and wellness session,Education,Delhi,2026-05-04 16:30:22.482607,827,341,1
+Tech Meetup,Live music concert with top artists,Business,Mumbai,2026-05-04 16:30:22.482607,239,426,1
+Coding Bootcamp,Book exhibition and author meet,Business,Delhi,2026-06-09 16:30:22.482607,552,258,1
+Yoga Session,Morning yoga and wellness session,Art,Chandigarh,2026-05-04 16:30:22.482607,554,185,1
+Book Fair,Live music concert with top artists,Music,Mumbai,2026-05-17 16:30:22.482607,851,308,1
+Dance Show,Morning yoga and wellness session,Tech,Pune,2026-08-04 16:30:22.482607,875,336,1
+Coding Bootcamp,AI and ML networking event,Food,Pune,2026-06-18 16:30:22.482607,600,434,1
+Art Workshop,Book exhibition and author meet,Food,Bangalore,2026-05-21 16:30:22.482607,869,28,0
+Tech Meetup,Live dance performances,Tech,Pune,2026-06-12 16:30:22.482607,684,389,1
+Music Fest,Morning yoga and wellness session,Education,Jaipur,2026-06-23 16:30:22.482607,730,144,0
+Food Festival,Book exhibition and author meet,Education,Delhi,2026-05-10 16:30:22.482607,27,146,1
+Food Festival,Learn Python and data science,Education,Bangalore,2026-05-13 16:30:22.482607,805,485,1
+Book Fair,Pitch your startup to investors,Tech,Chandigarh,2026-05-18 16:30:22.482607,944,146,0
+Startup Pitch,AI and ML networking event,Music,Jaipur,2026-07-10 16:30:22.482607,906,53,0
+Yoga Session,Live music concert with top artists,Food,Jaipur,2026-05-12 16:30:22.482607,591,220,1
+Coding Bootcamp,Learn Python and data science,Business,Pune,2026-07-08 16:30:22.482607,478,383,1
+Tech Meetup,Live music concert with top artists,Health,Mumbai,2026-05-10 16:30:22.482607,673,162,1
+Yoga Session,Business growth strategies and networking,Education,Delhi,2026-05-15 16:30:22.482607,556,32,0
+Yoga Session,Book exhibition and author meet,Business,Chandigarh,2026-05-04 16:30:22.482607,860,254,1
+Coding Bootcamp,Street food and cultural fest,Tech,Jaipur,2026-07-18 16:30:22.482607,798,145,0
+Startup Pitch,Morning yoga and wellness session,Music,Mumbai,2026-07-16 16:30:22.482607,185,58,1
+Food Festival,Pitch your startup to investors,Music,Chandigarh,2026-05-20 16:30:22.482607,534,178,1
+Art Workshop,Street food and cultural fest,Education,Jaipur,2026-04-29 16:30:22.483615,583,211,1
+Coding Bootcamp,Learn Python and data science,Music,Pune,2026-05-13 16:30:22.483615,237,435,1
+Art Workshop,Live music concert with top artists,Education,Jaipur,2026-05-14 16:30:22.483615,364,273,1
+Art Workshop,AI and ML networking event,Health,Bangalore,2026-06-24 16:30:22.483615,270,122,0
+Business Seminar,Pitch your startup to investors,Food,Bangalore,2026-06-10 16:30:22.483615,381,199,1
+Coding Bootcamp,Business growth strategies and networking,Education,Mumbai,2026-05-12 16:30:22.483615,243,60,0
+Yoga Session,Street food and cultural fest,Business,Jaipur,2026-07-16 16:30:22.483615,344,217,1
+Food Festival,Morning yoga and wellness session,Tech,Pune,2026-07-24 16:30:22.483615,740,235,1
+Book Fair,Street food and cultural fest,Music,Chandigarh,2026-07-04 16:30:22.483615,491,481,1
+Dance Show,Book exhibition and author meet,Music,Pune,2026-08-03 16:30:22.483615,632,234,1
+Startup Pitch,Morning yoga and wellness session,Food,Mumbai,2026-05-02 16:30:22.483615,277,43,0
+Book Fair,Street food and cultural fest,Health,Jaipur,2026-07-10 16:30:22.483615,353,98,0
+Dance Show,Pitch your startup to investors,Education,Chandigarh,2026-08-02 16:30:22.483615,796,384,1
+Business Seminar,Book exhibition and author meet,Business,Pune,2026-05-08 16:30:22.483615,902,478,1
+Business Seminar,Painting workshop for beginners,Education,Jaipur,2026-06-17 16:30:22.483615,65,394,1
+Book Fair,Live dance performances,Food,Mumbai,2026-06-20 16:30:22.483615,938,280,1
+Book Fair,AI and ML networking event,Business,Bangalore,2026-06-06 16:30:22.483615,158,322,1
+Startup Pitch,Live music concert with top artists,Health,Jaipur,2026-05-15 16:30:22.483615,960,500,1
+Art Workshop,Business growth strategies and networking,Art,Delhi,2026-07-20 16:30:22.483615,927,426,1
+Food Festival,Painting workshop for beginners,Tech,Bangalore,2026-06-20 16:30:22.483615,364,89,0
+Tech Meetup,Morning yoga and wellness session,Education,Delhi,2026-07-04 16:30:22.483615,597,241,1
+Food Festival,Painting workshop for beginners,Health,Bangalore,2026-07-03 16:30:22.483615,68,472,1
+Yoga Session,AI and ML networking event,Health,Bangalore,2026-05-16 16:30:22.483615,825,488,1
+Music Fest,AI and ML networking event,Business,Delhi,2026-05-18 16:30:22.483615,749,70,0
+Yoga Session,Learn Python and data science,Health,Mumbai,2026-05-18 16:30:22.483615,310,263,1
+Art Workshop,Learn Python and data science,Art,Chandigarh,2026-08-05 16:30:22.483615,108,295,1
+Book Fair,Business growth strategies and networking,Food,Mumbai,2026-07-04 16:30:22.483615,161,172,1
+Art Workshop,Business growth strategies and networking,Tech,Pune,2026-07-16 16:30:22.483615,267,132,0
+Yoga Session,Live music concert with top artists,Music,Delhi,2026-07-19 16:30:22.483615,522,219,1
+Art Workshop,Morning yoga and wellness session,Food,Chandigarh,2026-05-06 16:30:22.483615,794,172,1
+Tech Meetup,Live dance performances,Tech,Pune,2026-07-01 16:30:22.483615,26,442,1
+Business Seminar,AI and ML networking event,Tech,Pune,2026-07-24 16:30:22.483615,60,399,1
+Music Fest,Learn Python and data science,Business,Jaipur,2026-05-14 16:30:22.483615,799,75,0
