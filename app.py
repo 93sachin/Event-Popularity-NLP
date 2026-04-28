@@ -62,9 +62,6 @@ model, vectorizer, scaler, acc = train_model(df)
 st.title("🎯 Event Popularity Predictor")
 st.write("Predict whether your event will be popular or not 🔥")
 
-# Accuracy
-st.metric("Model Accuracy", f"{acc:.2f}")
-
 # Inputs
 description = st.text_area("Enter Event Description")
 price = st.number_input("Enter Price", min_value=0.0, step=10.0)
