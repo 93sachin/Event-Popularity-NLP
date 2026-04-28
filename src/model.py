@@ -1,6 +1,7 @@
 import pandas as pd
 import re
 import spacy
+import joblib
 
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -9,10 +10,10 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 from sklearn.preprocessing import StandardScaler
 from scipy.sparse import hstack
 
-# Load spaCy model
+# Load spaCy
 nlp = spacy.load("en_core_web_sm")
 
-# Clean text function
+# ---------------- CLEAN TEXT ----------------
 def clean_text(text):
     text = text.lower()
     text = re.sub(r'[^a-zA-Z\s]', '', text)
@@ -22,34 +23,35 @@ def clean_text(text):
 
     return " ".join(words)
 
-# Load dataset
+# ---------------- LOAD DATA ----------------
 df = pd.read_csv("data/events.csv")
+df = df.dropna()
 
 print("Total data:", len(df))
 
-# Preprocess text
-df["text"] = df["description"].apply(clean_text)
+# ---------------- TEXT ----------------
+df["text"] = df["description"].astype(str)
+df["text"] = df["text"].apply(clean_text)
 
-# ===================== FEATURES =====================
+# ---------------- FEATURES ----------------
 
-# TEXT FEATURES (TF-IDF)
-vectorizer = TfidfVectorizer(max_features=100)
+# TEXT
+vectorizer = TfidfVectorizer(max_features=200)
 text_features = vectorizer.fit_transform(df["text"])
 
-# NUMERIC FEATURES
-numeric_features = df[["price", "past_attendance"]]
+# NUMERIC
+numeric = df[["price", "past_attendance"]]
 
 scaler = StandardScaler()
-numeric_scaled = scaler.fit_transform(numeric_features)
+numeric_scaled = scaler.fit_transform(numeric)
 
-# COMBINE BOTH
+# COMBINE
 X = hstack([text_features, numeric_scaled])
 
 # TARGET
 y = df["popularity"]
 
-# ===================== TRAIN TEST =====================
-
+# ---------------- SPLIT ----------------
 X_train, X_test, y_train, y_test = train_test_split(
     X, y,
     test_size=0.3,
@@ -60,19 +62,16 @@ X_train, X_test, y_train, y_test = train_test_split(
 print("Train size:", X_train.shape[0])
 print("Test size:", X_test.shape[0])
 
-# ===================== MODEL =====================
-
+# ---------------- MODEL ----------------
 model = LogisticRegression(max_iter=1000, class_weight="balanced")
 model.fit(X_train, y_train)
 
-import joblib
-
+# ---------------- SAVE ----------------
 joblib.dump(model, "model.pkl")
 joblib.dump(vectorizer, "vectorizer.pkl")
 joblib.dump(scaler, "scaler.pkl")
 
-# ===================== PREDICTION =====================
-
+# ---------------- EVALUATION ----------------
 y_pred = model.predict(X_test)
 
 print("\nAccuracy:", accuracy_score(y_test, y_pred))
@@ -82,8 +81,7 @@ print(classification_report(y_test, y_pred))
 print("\nConfusion Matrix:\n")
 print(confusion_matrix(y_test, y_pred))
 
-# ===================== LIVE PREDICTION =====================
-
+# ---------------- LIVE ----------------
 print("\n=== LIVE EVENT PREDICTION ===")
 
 user_input = input("Enter event description: ")
@@ -94,7 +92,6 @@ clean_input = clean_text(user_input)
 text_vec = vectorizer.transform([clean_input])
 
 import pandas as pd
-
 input_df = pd.DataFrame(
     [[price_input, attendance_input]],
     columns=["price", "past_attendance"]

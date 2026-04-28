@@ -3,16 +3,11 @@ import pandas as pd
 import re
 import spacy
 
-import joblib
-
-model = joblib.load("model.pkl")
-vectorizer = joblib.load("vectorizer.pkl")
-scaler = joblib.load("scaler.pkl")
-
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import accuracy_score
 from scipy.sparse import hstack
 
 # Load spaCy
@@ -26,26 +21,49 @@ def clean_text(text):
     words = [token.lemma_ for token in doc if not token.is_stop]
     return " ".join(words)
 
-# Load data
-df = pd.read_csv("data/events.csv")
-df["text"] = df["description"].apply(clean_text)
+# ---------------- LOAD DATA ----------------
+@st.cache_data
+def load_data():
+    df = pd.read_csv("data/events.csv")
+    df = df.dropna()
+    df["text"] = df["description"].apply(clean_text)
+    return df
 
-# Features
-vectorizer = TfidfVectorizer(max_features=100)
-text_features = vectorizer.fit_transform(df["text"])
+df = load_data()
 
-numeric_features = df[["price", "past_attendance"]]
-scaler = StandardScaler()
-numeric_scaled = scaler.fit_transform(numeric_features)
+# ---------------- TRAIN MODEL ----------------
+@st.cache_resource
+def train_model(df):
+    vectorizer = TfidfVectorizer(max_features=100)
+    text_features = vectorizer.fit_transform(df["text"])
 
-X = hstack([text_features, numeric_scaled])
-y = df["popularity"]
+    numeric_features = df[["price", "past_attendance"]]
+    scaler = StandardScaler()
+    numeric_scaled = scaler.fit_transform(numeric_features)
 
+    X = hstack([text_features, numeric_scaled])
+    y = df["popularity"]
 
-# ================= UI =================
+    X_train, X_test, y_train, y_test = train_test_split(
+        X, y, test_size=0.3, random_state=42, stratify=y
+    )
 
+    model = LogisticRegression(max_iter=1000, class_weight="balanced")
+    model.fit(X_train, y_train)
+
+    y_pred = model.predict(X_test)
+    acc = accuracy_score(y_test, y_pred)
+
+    return model, vectorizer, scaler, acc
+
+model, vectorizer, scaler, acc = train_model(df)
+
+# ---------------- UI ----------------
 st.title("🎯 Event Popularity Predictor")
 st.write("Predict whether your event will be popular or not 🔥")
+
+# 🔥 SHOW ACCURACY
+st.metric("Model Accuracy", f"{acc:.2f}")
 
 # Inputs
 description = st.text_area("Enter Event Description")
