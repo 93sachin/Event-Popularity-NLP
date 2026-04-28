@@ -65,6 +65,12 @@ print("Test size:", X_test.shape[0])
 model = LogisticRegression(max_iter=1000, class_weight="balanced")
 model.fit(X_train, y_train)
 
+import joblib
+
+joblib.dump(model, "model.pkl")
+joblib.dump(vectorizer, "vectorizer.pkl")
+joblib.dump(scaler, "scaler.pkl")
+
 # ===================== PREDICTION =====================
 
 y_pred = model.predict(X_test)

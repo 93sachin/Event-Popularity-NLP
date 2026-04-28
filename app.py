@@ -3,6 +3,12 @@ import pandas as pd
 import re
 import spacy
 
+import joblib
+
+model = joblib.load("model.pkl")
+vectorizer = joblib.load("vectorizer.pkl")
+scaler = joblib.load("scaler.pkl")
+
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
@@ -35,9 +41,6 @@ numeric_scaled = scaler.fit_transform(numeric_features)
 X = hstack([text_features, numeric_scaled])
 y = df["popularity"]
 
-# Train model
-model = LogisticRegression(max_iter=1000, class_weight="balanced")
-model.fit(X, y)
 
 # ================= UI =================
 
