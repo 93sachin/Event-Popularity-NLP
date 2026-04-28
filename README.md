@@ -19,6 +19,9 @@ Predict whether an event will be popular using its **description, price, and pas
 - Accuracy: ~89%
 - Balanced performance (see confusion matrix & report in `src/model.py`)
 
+## 🖥️ App Preview
+![App Screenshot](assets/app.png)
+
 ## ▶️ Run Locally
 ```bash
 pip install -r requirements.txt
