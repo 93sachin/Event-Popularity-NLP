@@ -1,5 +1,7 @@
 # 🎯 Event Popularity Prediction (NLP + ML)
 
+**🟢 Live App:** [Test the project here!](https://event-popularity-nlp-st6f5xr8jtryhktmhm34xv.streamlit.app/)
+
 Predict whether an event will be popular using its **description, price, and past attendance**.
 
 ## 🔧 Tech Stack
